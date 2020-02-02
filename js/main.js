@@ -70,12 +70,6 @@ var waited_develop=function(){
     
 
         }
-
-        }
-
-            }
-        }
-    }
 }
 var tagSwitch=function() 
 {
