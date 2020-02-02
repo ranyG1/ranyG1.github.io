@@ -67,9 +67,22 @@ var waited_develop=function(){
     // var waiteda=waitedli.children;
     console.log(waitedli);
     // console.log(waiteda);
-    
+	
+    for (var i=1;i<waitedli.length;i++){
+        if(waitedli[i].addEventListener){
+            waitedli[i].addEventListener("click",myfunction,false);
+                function myfunction(){
+           
+        }
 
         }
+        if(waitedli[i].attachEvent){
+            waitedli[i].attachEvent("onclick",myfunction); 
+            function myfunction(){
+              
+            }
+        }
+    }
 }
 var tagSwitch=function() 
 {
