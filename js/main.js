@@ -72,14 +72,14 @@ var waited_develop=function(){
         if(waitedli[i].addEventListener){
             waitedli[i].addEventListener("click",myfunction,false);
                 function myfunction(){
-             alert("待开发");
+             
         }
 
         }
         if(waitedli[i].attachEvent){
             waitedli[i].attachEvent("onclick",myfunction); 
             function myfunction(){
-              alert("待开发");
+              
             }
         }
     }
